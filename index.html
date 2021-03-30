@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h2>Alapadatok</h2>
+<table>
+    <tr>
+        <td class="eslo"><label for="">Név</label></td>
+        <td class="masodik"><input type="text" name="" class="sav"></td>
+    </tr>
+    <tr>
+        <td class="eslo"><label for="">Nemed</label></td>
+        <td class="masodik"><input type="radio" id="ferfi" name="gender" value="ferfi" class="gender">
+            <label for="ferfi">Férfi</label>
+            <input type="radio" id="no" name="gender" value="no" class="gender">
+            <label for="no">Nő</label>
+        </td>
+    </tr>
+    <tr>
+        <td class="eslo"><label for="">Email<sup>*</sup></label></td>
+        <td class="masodik"><input type="text" name="" class="sav"></td>
+    </tr>
+    <tr>
+        <td class="eslo"> <label for="teloszam">Telefonszám<sup>*</sup></label></td>
+        <td class="masodik">
+            <select name="" id="szam">
+                <option value="">36</option>
+            </select>
+            <input type="text" name="" id="tel">
+        </td>
+    </tr>
+    <tr>
+        <td class="eslo"><label for="">Levelezés alapértelmezett nyelve<sup>*</sup></label></td>
+        <td class="masodik"><select name="" id="nagy">
+            <option value="">Magyar</option>
+            <option value="">Német</option>
+            <option value="">Angol</option>
+            <option value="">Orosz</option>
+            <option value="">Olasz</option>
+        </select></td>
+    </tr>
+    <tr>
+        <td class="eslo"><label for="">Születési idő</label></td>
+        <td class="masodik"><input type="number" placeholder="Év" min="0" max="2050" class="ido">
+        <input type="number" placeholder="Hó" min="1" max="12" class="ido">
+       <input type="number" placeholder="Nap" min="1" max="31" td class="ido">
+    </tr>
+    <tr>
+        <td><input type="submit" value="Mentés" id="save"></td>
+    </tr>
+
+</table>
+
+</body>
+</html>

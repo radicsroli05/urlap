@@ -1,0 +1,72 @@
+table{
+    background-color: rgba(128, 128, 128, 0.192);
+    padding: 5px;
+    width: 500px;
+    height: 300px;
+}
+.eslo{
+    padding: 5px;
+    width: 200px;
+    padding: 10px;
+}
+.masodik{
+    width: 150px;
+}
+input[type=text]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=text]{
+    border: grey 1px solid;
+}
+input[type=number]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=number]{
+    border: grey 1px solid;
+}
+input[type=tel]:focus {
+    border: 2px solid rgb(179, 1, 1);
+    border-radius: 2px;
+    outline: none;
+}
+input[type=tel]{
+    border: grey 1px solid;
+}
+#save{
+    background-color: rgb(255, 78, 8);
+    border: none;
+    width: 70px;
+    height: 30px;
+    color: white;
+    margin-left: 10px;
+}
+.ido{
+    width: 45px;
+    height: 25px;
+}
+#tel{
+    width: 190px;
+    height: 25px;
+}
+#nagy{
+    width: 240px;
+    height: 30px;
+}
+.sav{
+    height: 25px;
+    width: 233px;
+}
+#szam{
+    height: 29px;
+}
+.gender{
+    width: 30px;
+    height: 20px;
+}
+sup{
+    color: solid rgb(179, 1, 1);
+}
